@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    /* background: #1abc9c; */
+    background: #fff;
+    display: grid;
+    justify-items: center;
+}
+
+/* .darkMode{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: right;
+    z-index: 10;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.darkMode:before{
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 20px;
+    height: 90%;
+    border-radius: 50%;
+    background-color: white;
+    transform: .3s;
+}
+
+.darkMode.active:before{
+    position: absolute;
+    left: 22px;
+}
+
+body.night{
+    background-color: black;
+    color: white;
+} */
+
+.sameColor i{
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.shade{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background: #27ae60;
+    border-radius: 0 0 90px 90px;
+}
+
+
+
+.wrapper{
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+    padding: 70px 150px 40px 150px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.wrapper:hover{
+    border: 2px solid #27ae60;
+    transition: .1s;
+}
+
+.wrapper h1{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    color: #27ae60;
+    font-weight: 500;
+    font-size: 35px;
+    width: 100%;
+    height: 60px;
+    /* background: #27ae60; */
+    border-radius: 10px 10px 0 0;
+}
+
+.emaill form input{
+  margin-top: 25px;
+  width: 210px;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  outline: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.emaill form input:hover{
+    border: 2px solid #27ae60;
+}
+
+.emaill form input::placeholder{
+    font-size: 15px;
+}
+
+/* form p{
+    display: none;
+} */
+
+.forgot{
+   margin-top: 10px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #27ae60;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.logBtn input{ 
+    width: 100%;
+    margin-top: 20px ;
+    background: #27ae60;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logBtn input:hover{
+    background: #1d8b4b;
+    transition: 0.3s;
+}
+
+.member{
+    margin-top: 25px;
+    color: rgb(143, 145, 145);
+}
+
+.member a{
+    text-decoration: none;
+    color: #27ae60;
+}
+
+.member a:hover{
+    text-decoration: underline;
+}
+
+p{
+    padding-top: 3px;
+    color: red;
+    font-size: 13px;
+}
+
